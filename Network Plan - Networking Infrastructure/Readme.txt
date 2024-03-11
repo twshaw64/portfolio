@@ -1,0 +1,2 @@
+A report detailing the design of a network and wireless solution, covering two stories of a university building.
+The report goes into detail about the hardware chosen and it's placement, as well as the network structure and the reasoning behind it. Followed by a detailed cost breakdown and a retrospective on the project.

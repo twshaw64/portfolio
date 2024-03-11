@@ -1,0 +1,14 @@
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\location\location\bin\Debug\location.exe.config
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\location\location\bin\Debug\location.exe
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\location\location\bin\Debug\location.pdb
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\location\location\obj\Debug\location.csproj.CoreCompileInputs.cache
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\location\location\obj\Debug\location.exe
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\location\location\obj\Debug\location.pdb
+G:\Year 2\500081 Networking and User Interface Design\location\location\bin\Debug\location.exe.config
+G:\Year 2\500081 Networking and User Interface Design\location\location\bin\Debug\location.exe
+G:\Year 2\500081 Networking and User Interface Design\location\location\bin\Debug\location.pdb
+G:\Year 2\500081 Networking and User Interface Design\location\location\obj\Debug\location.csproj.CoreCompileInputs.cache
+G:\Year 2\500081 Networking and User Interface Design\location\location\obj\Debug\location.exe
+G:\Year 2\500081 Networking and User Interface Design\location\location\obj\Debug\location.pdb
+G:\Year 2\500081 Networking and User Interface Design\location\location\obj\Debug\location.clientForm.resources
+G:\Year 2\500081 Networking and User Interface Design\location\location\obj\Debug\location.csproj.GenerateResource.Cache

@@ -1,0 +1,14 @@
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\client\client\bin\Debug\client.exe.config
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\client\client\bin\Debug\client.exe
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\client\client\bin\Debug\client.pdb
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\client\client\obj\Debug\client.csprojAssemblyReference.cache
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\client\client\obj\Debug\client.csproj.CoreCompileInputs.cache
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\client\client\obj\Debug\client.exe
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\client\client\obj\Debug\client.pdb
+G:\Year 2\500081 Networking and User Interface Design\client\client\bin\Debug\client.exe.config
+G:\Year 2\500081 Networking and User Interface Design\client\client\bin\Debug\client.exe
+G:\Year 2\500081 Networking and User Interface Design\client\client\bin\Debug\client.pdb
+G:\Year 2\500081 Networking and User Interface Design\client\client\obj\Debug\client.csprojAssemblyReference.cache
+G:\Year 2\500081 Networking and User Interface Design\client\client\obj\Debug\client.csproj.CoreCompileInputs.cache
+G:\Year 2\500081 Networking and User Interface Design\client\client\obj\Debug\client.exe
+G:\Year 2\500081 Networking and User Interface Design\client\client\obj\Debug\client.pdb

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bookings>
+  <nextID>113</nextID>
+  <eventBookings>
+    <booking>
+      <bookingID>152</bookingID>
+      <date>2018-12-12T13:00:00+00:00</date>
+      <userFirstName>Michael</userFirstName>
+      <userSurname>Watson</userSurname>
+      <username>testing</username>
+      <eventName>test</eventName>
+      <attendees>
+        <attendee>testing</attendee>
+      </attendees>
+      <bookingNotes></bookingNotes>
+      <bookingType>EventBooking</bookingType>
+    </booking>
+  </eventBookings>
+  <PTBookings>
+    <booking>
+      <bookingID>99</bookingID>
+      <date>2018-12-12T07:00:00+00:00</date>
+      <userFirstName>Gym</userFirstName>
+      <userSurname>Member</userSurname>
+      <memberUsername>gymmember</memberUsername>
+      <PTUsername>personaltrainer</PTUsername>
+      <PTFirstName>Personal</PTFirstName>
+      <PTSurname>Trainer</PTSurname>
+      <bookingNotes></bookingNotes>
+      <bookingType>PTBooking</bookingType>
+    </booking>
+  </PTBookings>
+  <roomBookings>
+    <booking>
+      <bookingID>3</bookingID>
+      <date>10-10-18</date>
+      <userFirstName></userFirstName>
+      <userSurname></userSurname>
+      <username>testing</username>
+      <room>Sports Hall</room>
+      <bookingNotes></bookingNotes>
+      <bookingType>RoomBooking</bookingType>
+    </booking>
+  </roomBookings>
+</bookings>

@@ -1,0 +1,70 @@
+﻿<Window x:Class="resTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:resTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1200">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+
+        <Image x:Name="Board_png" Source="Board.png" Stretch="Fill"/>
+
+        <Image x:Name="Bet_png" Margin="1014,21,78,673" Source="Bet.png" Stretch="Fill"/>
+        <Image x:Name="ConfirmBet_png" Margin="1014,163,0,0" Source="ConfirmBet.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Image x:Name="Bet_Entry_png" Margin="1014,101,78,611" Source="Bet Entry.png" Stretch="Fill"/>
+
+        <Image x:Name="Hit_png" Margin="987,231,0,0" Source="Hit.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Image x:Name="Stick_png" Margin="987,301,0,0" Source="Stick.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Image x:Name="Double_png" Margin="987,370,0,0" Source="Double.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Image x:Name="Split_png" Margin="987,438,0,0" Source="Split.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <Image x:Name="Dealer_png" Margin="532,136,533,598" Source="Dealer.png" Stretch="Fill" HorizontalAlignment="Center"/>
+        <Image x:Name="Club_png" Margin="609,25,513,644" Source="Club.png" Stretch="Fill"/>
+        <Image x:Name="DIamond_png" Margin="511,25,611,644" Source="DIamond.png" Stretch="Fill"/>
+        <Label x:Name="lblUpCard" Content="Up Card" HorizontalAlignment="Left" Margin="524,62,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDownCard" Content="Down Card" HorizontalAlignment="Left" Margin="614,62,0,0" VerticalAlignment="Top"/>
+        
+        <Image x:Name="Console_png" Margin="36,25,826,619" Source="Console.png" Stretch="Fill"/>
+        <ListBox x:Name="lstCLI" HorizontalAlignment="Left" Height="124" Margin="34,25,0,0" VerticalAlignment="Top" Width="332" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFEDB726"/>
+        <Label x:Name="lblCLI" Content="CLI Output" HorizontalAlignment="Left" Margin="162,75,0,0" VerticalAlignment="Top" Foreground="White"/>
+
+        <Grid Margin="298,564,777,35">
+
+            <Image x:Name="ButtonBlank_P1" Margin="0,135,0,0" Source="ButtonBlank.png" Stretch="Fill"/>
+            <TextBox x:Name="p1" HorizontalAlignment="Left" Height="35" Margin="0,135,0,0" TextWrapping="Wrap" Text="Human Player 1&#xA;Chips: 30" VerticalAlignment="Top" Width="117" TextAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFEDB726"/>
+
+            <Image x:Name="Heart_png1" Margin="35,0,12,70" Source="Heart.png" Stretch="Fill" RenderTransformOrigin="-0.329,0.05"/>
+            <Image x:Name="Spade_png" Margin="22,18,25,52" Source="Spade.png" Stretch="Fill"/>
+
+            <Label x:Name="label_Copy3" Content="Hand" HorizontalAlignment="Left" Margin="39,58,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Grid Margin="456,564,619,35">
+            <Image x:Name="ButtonBlank_P2" Margin="0,135,0,0" Source="ButtonBlank.png" Stretch="Fill"/>
+            <TextBox x:Name="p2" HorizontalAlignment="Left" Height="35" Margin="0,135,0,0" TextWrapping="Wrap" Text="Human Player 2&#xA;Chips: 25" VerticalAlignment="Top" Width="117" TextAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFEDB726"/>
+            <Image x:Name="Spade_png1" Margin="33,0,14,70" Source="Spade.png" Stretch="Fill"/>
+            <Image x:Name="DIamond_png1" Margin="19,18,28,52" Source="DIamond.png" Stretch="Fill"/>
+            <Label x:Name="label_Copy6" Content="Hand" HorizontalAlignment="Left" Margin="36,58,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Margin="619,564,456,35">
+            <Image x:Name="ButtonBlank_cpu1" Margin="0,135,0,0" Source="ButtonBlank.png" Stretch="Fill"/>
+            <TextBox x:Name="cpu1" HorizontalAlignment="Left" Height="35" Margin="0,135,0,0" TextWrapping="Wrap" Text="CPU Player 1&#xA;Chips: 40" VerticalAlignment="Top" Width="117" TextAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFEDB726"/>
+            <Image x:Name="DIamond_png2" Margin="29,0,18,70" Source="DIamond.png" Stretch="Fill"/>
+            <Image x:Name="Club_png1" Margin="16,18,31,52" Source="Club.png" Stretch="Fill" RenderTransformOrigin="0.243,-0.46"/>
+            <Label x:Name="label_Copy5" Content="Hand" HorizontalAlignment="Left" Margin="32,58,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        
+        <Grid Margin="777,564,298,35">
+            <Image x:Name="ButtonBlank_cpu2" Margin="0,135,0,0" Source="ButtonBlank.png" Stretch="Fill"/>
+            <TextBox x:Name="cpu2" HorizontalAlignment="Left" Height="35" Margin="0,135,0,0" TextWrapping="Wrap" Text="CPU Player 2&#xA;Chips: 20" VerticalAlignment="Top" Width="117" TextAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFEDB726"/>
+
+            <Image x:Name="Club_png2" Margin="32,0,15,70" Source="Club.png" Stretch="Fill"/>
+            <Image x:Name="Heart_png" Margin="15,18,32,52" Source="Heart.png" Stretch="Fill"/>
+            <Label x:Name="label_Copy4" Content="Hand" HorizontalAlignment="Left" Margin="32,58,0,0" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</Window>

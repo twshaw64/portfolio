@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logins>
+  <login>
+    <username>testing</username>
+    <password>zk}}{y|n</password>
+    <firstName>michael</firstName>
+    <surname>watson</surname>
+    <addressLine1>20 cranbrook avenue</addressLine1>
+    <city>hull</city>
+    <county>east yorkshire</county>
+    <postCode>hu65sn</postCode>
+    <phoneNumber>07888888888</phoneNumber>
+    <email>w@w.com</email>
+    <userLevel>GymMember</userLevel>
+    <activeMember>true</activeMember>
+  </login>
+  <login>
+    <username>personaltrainer</username>
+    <password>zk}}{y|n</password>
+    <firstName>TEST</firstName>
+    <surname>tEST</surname>
+    <addressLine1>20 cranbrook avenue</addressLine1>
+    <city>hull</city>
+    <county>east yorkshire</county>
+    <postCode>6666hhh</postCode>
+    <phoneNumber>01248636256</phoneNumber>
+    <email>hello23@gmail.com</email>
+    <userLevel>PersonalTrainer</userLevel>
+    <activeMember>true</activeMember>
+    <PTAssigned></PTAssigned>
+    <PTScore>2</PTScore>
+  </login>
+</logins>

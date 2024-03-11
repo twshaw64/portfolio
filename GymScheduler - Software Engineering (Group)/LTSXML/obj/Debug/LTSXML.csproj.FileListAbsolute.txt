@@ -1,0 +1,6 @@
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSXML\bin\Debug\LTSXML.dll
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSXML\bin\Debug\LTSXML.pdb
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSXML\obj\Debug\LTSXML.csproj.CoreCompileInputs.cache
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSXML\obj\Debug\LTSXML.dll
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSXML\obj\Debug\LTSXML.pdb
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSXML\obj\Debug\LTSXML.csprojAssemblyReference.cache

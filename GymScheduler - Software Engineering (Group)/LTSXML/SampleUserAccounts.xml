@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logins>
+  <login>
+    <username>hashedusername</username>
+    <password>hashedpassword</password>
+    <userlevel>gymmember</userlevel>
+    <activemember>true</activemember>
+  </login>
+  <login>
+    <username>hashedusername2</username>
+    <password>hashedpassword2</password>
+    <userlevel>manager</userlevel>
+    <activemember>true</activemember>
+  </login>
+</logins>

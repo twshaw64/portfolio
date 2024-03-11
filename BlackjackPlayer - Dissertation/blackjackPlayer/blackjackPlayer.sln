@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blackjackPlayer", "blackjackPlayer\blackjackPlayer.csproj", "{9171DF09-76A7-425C-B210-5074707E8790}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC5C407B-629C-4DAB-99BC-C7A4CDE0F890}"
+	ProjectSection(SolutionItems) = preProject
+		blackjackPlayer\deckInput.csv = blackjackPlayer\deckInput.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9171DF09-76A7-425C-B210-5074707E8790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9171DF09-76A7-425C-B210-5074707E8790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9171DF09-76A7-425C-B210-5074707E8790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9171DF09-76A7-425C-B210-5074707E8790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9F2EA26-504B-4558-8C46-6BF05A1E1D18}
+	EndGlobalSection
+EndGlobal

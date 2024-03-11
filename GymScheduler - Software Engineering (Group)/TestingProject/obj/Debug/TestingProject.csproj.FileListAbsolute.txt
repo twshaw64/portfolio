@@ -1,0 +1,2 @@
+T:\Users\Documents\Uni\Systems Analysis\New folder\TestingProject\obj\Debug\TestingProject.csprojResolveAssemblyReference.cache
+T:\Users\Documents\Uni\Systems Analysis\New folder\TestingProject\obj\Debug\TestingProject.csproj.CoreCompileInputs.cache

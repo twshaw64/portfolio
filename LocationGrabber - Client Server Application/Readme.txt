@@ -1,0 +1,1 @@
+A Client/Server Worldwide Location Updater and Grabber, with options for different http protocols and a seperate GUI version.

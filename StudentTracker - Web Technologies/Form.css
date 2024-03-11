@@ -1,0 +1,270 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body 
+{
+    margin:0;
+	background:transparent url(https://www.hull.ac.uk/editor-assets/images/business/nidd.png)no-repeat center fixed;  	
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+
+img
+{
+    width:461.25px;
+    height:126px;
+    position: fixed;
+    top: 855px;    
+    left: 1470px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    text-align:center;
+}
+
+.locationForm form
+{
+    position: fixed;
+    top: 580px;
+    left: 10px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 343px;
+    height: 315px;
+    padding: 30px;
+    padding-top: 35px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    background: rgba(49, 49, 49, 0.753);
+    overflow: hidden;
+}
+
+.currentLocationForm
+{
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 343px;
+    padding: 30px;
+    padding-top: 35px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    background: rgba(49, 49, 49, 0.753);
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.recentLocationForm
+{
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 343px;
+    padding: 30px;
+    padding-top: 35px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    background: rgba(49, 49, 49, 0.753);
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.checkLocationForm
+{
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 343px;
+    padding: 30px;
+    padding-top: 35px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    background: rgba(49, 49, 49, 0.753);
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.detailsForm form
+{
+    position: fixed;
+    top: 648px;
+    left: 10px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 343px;
+    height: 247px;
+    padding: 30px;
+    padding-top: 35px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    background: rgba(49, 49, 49, 0.753);
+    overflow: hidden;
+}
+
+.retrieveForm
+{
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 510px;
+    padding: 30px;
+    padding-top: 35px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    background: rgba(49, 49, 49, 0.753);
+    overflow: hidden;
+    font-size: 20px;
+    text-align: center;
+}
+
+textarea 
+{
+    background: rgba(255, 255, 255, 0.4) no-repeat scroll 16px 16px;
+    width: 276px;
+    height: 110px;
+    border: 1px solid rgba(255,255,255,.6);
+    border-radius: 4px;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 45px;
+    padding-right: 20px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+input 
+{
+    width: 276px;
+    height: 48px;    
+    border: 1px solid #979797;
+    border-radius: 3px;
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:rgb(255, 255, 255);
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+input[type=submit] 
+{
+    cursor:pointer;
+}
+
+input.textbox 
+{
+    background: rgba(172, 172, 172, 0.4);
+	padding-left:45px;
+}
+
+::-webkit-input-placeholder 
+{
+	color: #fff;
+}
+
+:-ms-input-placeholder 
+{  
+	color: #fff; 
+}
+
+input:focus, textarea:focus 
+{ 
+	background-color: rgba(0, 0, 0, 0.2);
+	overflow: hidden; 
+}
+
+.btn 
+{
+	width: 138px;
+	height: 44px;
+	float:right;
+    border: 1px solid #686868;
+    background:  rgba(58, 58, 58, 0.8);
+    padding: 10.5px 21px;
+    border-radius: 6px;
+}
+
+.btn:hover 
+{
+    border: 1px solid #979797;
+    background:  rgba(116, 116, 116, 0.7);
+}
+
+.btn:active 
+{
+    margin-top:1px;
+    text-shadow: #333333 0 -1px 0;
+    border: 1px solid #bbbbbb;
+    background:  rgba(50, 50, 50, 0.8);
+    color: #fff;
+}
+
+.location select
+{
+    height: 48px;    
+    border: 1px solid #979797;
+    border-radius: 3px;
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+    padding-left:45px;
+    color: #fff;
+    background: rgba(172, 172, 172, 0.4);
+}
+
+select:hover
+{    
+    cursor: pointer;
+}
+
+option
+{
+    background-color: rgba(94, 94, 94, 255);
+}
+
+option:first-child
+{
+	display: none;
+}
+
+nav {
+    text-align: center;
+}
+
+
+ul
+{	
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+	list-style-type: square;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;	
+	background-color: #333;	
+}
+
+li a
+{    
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 6px 106px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: #111;
+    cursor: pointer;
+}

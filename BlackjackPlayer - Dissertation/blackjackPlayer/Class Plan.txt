@@ -1,0 +1,69 @@
+prog
+	select gametype, set deckNo
+
+
+	dealer(deckNo, player.humTok)
+
+dealer (deckNo) ret intArr [int52]
+	list deck	
+	shfDeck(deck)/
+
+	dictionary CardDic(int) //cardNo<->CardID\
+	draw ret int[1-13]\
+
+	drawHum ret str //format 4S = 4 spades KC = king clubs etc
+	drawCPU ret str //remove suit
+
+player
+	playerNo
+	humTok
+	bustTok
+	hand
+	chips
+	
+
+player doesn't need to know suit\ //suits matter for splitting
+cpu hand can just be 1-13
+
+can't just use rng - need to account for played cards
+list of cards in play, if rng == card on list, call again/
+
+create deck list at start of game then just call dealer.draw
+ret card and remove from list
+
+scdh
+
+how do i keep the deck private and in scope //public static for now
+dict needs to be kept in scope too //add getters and setters later
+
+draw(playerid)
+
+new player data members: splitHand, bet, splitBet, playerList
+make dealer player constructer
+
+fix tryparse being shit
+fix split referencing
+dealer reload hand
+
+Timeline of a program instance:
+
+Boot/
+Amount of human and cpu players/
+Name human players/
+Create players and cpu players/
+Dealer initiate/
+[make initial bet 2-500]/
+Deal initial hands (1 card each clockwise, face up x2. Dealer's 2nd face down)/
+Check for naturals [p nat = p1.5xbet, d nat = dall bets, p&d nat = p1*bet]/
+Player 1 turn - hit/stand/bust [on bust, dealer collects bet]/
+Player 2 ... [can double down if original hand == 9/10/11 - only get one more card]/
+Player 3 ... [can split if suit or numbers match, have to place equal bet on 2nd hand]/
+All players have completed turns/
+Dealer turn - reveal card, if hand >= 17 stand, else hit /
+(If the dealer has an ace, and counting it as 11 would bring the total to 17 or more (but not over 21), the dealer must count the ace as 11 and stand)/
+Dealer compares hands [if dealer goes bust, all standing players recieve 1x their bet]
+[if dealer stands, any non-bust player with a higher total recieves 1x their bet. dealer collects the bet of any player having a lower total]/
+[a stand off between dealer and any number of players results in no chips being collected or paid out]
+Winner(s) declared/
+Prompt for another game/
+Restart or exit/

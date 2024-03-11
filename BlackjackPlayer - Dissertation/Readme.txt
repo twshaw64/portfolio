@@ -1,0 +1,2 @@
+My dissertation, a program to play or practice blackjack with friends, or a computer-controlled opponent, with unimplemented GUI.
+The report documents the design, features and implementation of the project, complete with tests, analysis, and a retrospective.

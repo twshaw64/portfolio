@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bookings>
+  <eventBookings>
+    <booking>
+      <bookingID>2</bookingID>
+      <date>10-10-18</date>
+      <userFirstName>Steve</userFirstName>
+      <userSurname>Hecklebury</userSurname>
+      <username>steve</username>
+      <eventName>big event with many people</eventName>
+    </booking>
+  </eventBookings>
+  <PTBookings>
+    <booking>
+      <bookingID>1</bookingID>
+      <date>10-10-18</date>
+      <userFirstName>Michael</userFirstName>
+      <userSurname>watson</userSurname>
+      <memberUsername>mwatson</memberUsername>
+      <PTUsername>ptrainmuch</PTUsername>
+      <PTFirstName>Peter</PTFirstName>
+      <PTSurname>TrainMuch</PTSurname>
+    </booking>
+  </PTBookings>
+  <roomBookings>
+    <bookingID></bookingID>
+    <date>10-10-18</date>
+    <userFirstName></userFirstName>
+  </roomBookings>
+</bookings>

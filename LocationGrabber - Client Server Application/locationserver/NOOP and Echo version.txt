@@ -1,0 +1,78 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Net;
+using System.Net.Sockets;
+using System.IO;
+
+namespace locationserver
+{
+    class Program
+    {        
+        static void Main(string[] args)
+        {
+            runServer();
+        }
+        static void runServer()
+        {
+            TcpListener listener;
+            Socket connection;
+            NetworkStream socketStream;
+            try
+            {
+                listener = new TcpListener(IPAddress.Any,43);
+                listener.Start();
+                Console.WriteLine("Server started listening");
+                    while (true)
+                {
+                    connection = listener.AcceptSocket();
+                    socketStream = new NetworkStream(connection);
+                    Console.WriteLine("Connection recieved");
+                        doRequest(socketStream);
+                    socketStream.Close();
+                    connection.Close();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exeption" + e.ToString());
+            }
+            
+        }
+        static void doRequest(NetworkStream socketStream)
+        {
+            try
+            {
+                StreamWriter sw = new StreamWriter(socketStream);
+                StreamReader sr = new StreamReader(socketStream);
+
+                //sw.WriteLine(args[0]);
+                //sw.Flush();
+                //Console.WriteLine(sr.ReadToEnd());
+
+                String line = sr.ReadLine().Trim();
+                Console.WriteLine("Respond recieved: " + line);
+                String [] command = line.Split(' ');
+                switch (command[0])
+                {
+                    case "NOOP":
+                        Console.WriteLine("NOOP Performed");
+                        break;
+                    case "ECHO":
+                        Console.WriteLine();
+                        break;
+                    default:
+                        Console.WriteLine("Unrecognised command");
+                        break;
+                }
+
+            }
+            catch
+            {
+                Console.WriteLine("Something went wrong.");
+            }        
+        }
+    }
+}

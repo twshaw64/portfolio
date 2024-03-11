@@ -1,0 +1,14 @@
+G:\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\obj\Debug\blackjackPlayer.csproj.CoreCompileInputs.cache
+G:\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\bin\Debug\blackjackPlayer.exe.config
+G:\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\bin\Debug\blackjackPlayer.exe
+G:\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\bin\Debug\blackjackPlayer.pdb
+G:\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\obj\Debug\blackjackPlayer.exe
+G:\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\obj\Debug\blackjackPlayer.pdb
+G:\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\obj\Debug\blackjackPlayer.csprojAssemblyReference.cache
+T:\Users\Documents\Uni\G Drive\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\bin\Debug\blackjackPlayer.exe.config
+T:\Users\Documents\Uni\G Drive\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\bin\Debug\blackjackPlayer.exe
+T:\Users\Documents\Uni\G Drive\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\bin\Debug\blackjackPlayer.pdb
+T:\Users\Documents\Uni\G Drive\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\obj\Debug\blackjackPlayer.csprojAssemblyReference.cache
+T:\Users\Documents\Uni\G Drive\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\obj\Debug\blackjackPlayer.csproj.CoreCompileInputs.cache
+T:\Users\Documents\Uni\G Drive\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\obj\Debug\blackjackPlayer.exe
+T:\Users\Documents\Uni\G Drive\Year 3\Dissertation\blackjackPlayer\blackjackPlayer\obj\Debug\blackjackPlayer.pdb

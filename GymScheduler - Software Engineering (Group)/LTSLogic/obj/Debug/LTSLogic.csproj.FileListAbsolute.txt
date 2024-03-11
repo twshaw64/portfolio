@@ -1,0 +1,9 @@
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSLogic\bin\Debug\LTSLogic.dll
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSLogic\bin\Debug\LTSLogic.pdb
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSLogic\bin\Debug\LTSXML.dll
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSLogic\bin\Debug\LTSXML.pdb
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSLogic\obj\Debug\LTSLogic.csproj.CoreCompileInputs.cache
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSLogic\obj\Debug\LTSLogic.dll
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSLogic\obj\Debug\LTSLogic.pdb
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSLogic\obj\Debug\LTSLogic.csprojAssemblyReference.cache
+T:\Users\Documents\Uni\Systems Analysis\New folder\LTSLogic\obj\Debug\LTSLogic.csproj.CopyComplete

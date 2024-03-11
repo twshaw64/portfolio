@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reports>
+  <nextID>200</nextID>
+  <report>
+    <reportID>1</reportID>
+    <date>10-10-18</date>
+    <reportingUsername>testing</reportingUsername>
+    <description>Printer is broke</description>
+    <resolved>false</resolved>
+  </report>
+  <report>
+    <reportID>2</reportID>
+    <date>10-10-18</date>
+    <reportingUsername>testing</reportingUsername>
+    <description>hhh</description>
+    <resolved>true</resolved>
+  </report>
+</reports>

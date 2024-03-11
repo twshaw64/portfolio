@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pageinput>
+  <format>Fill</format>
+  <wrap>7</wrap>
+  <wrapsoft>0</wrapsoft>
+  <columnmoment>0</columnmoment>
+  <words>abcde abc def ab ab a a a xyzed f</words>
+</pageinput>

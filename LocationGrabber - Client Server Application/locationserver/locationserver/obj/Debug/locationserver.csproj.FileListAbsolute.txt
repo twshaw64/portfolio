@@ -1,0 +1,14 @@
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\bin\Debug\locationserver.exe.config
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\bin\Debug\locationserver.exe
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\bin\Debug\locationserver.pdb
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\obj\Debug\locationserver.csproj.CoreCompileInputs.cache
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\obj\Debug\locationserver.exe
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\obj\Debug\locationserver.pdb
+G:\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\bin\Debug\locationserver.exe.config
+G:\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\bin\Debug\locationserver.exe
+G:\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\bin\Debug\locationserver.pdb
+G:\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\obj\Debug\locationserver.csproj.CoreCompileInputs.cache
+G:\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\obj\Debug\locationserver.exe
+G:\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\obj\Debug\locationserver.pdb
+G:\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\obj\Debug\locationserver.csprojResolveAssemblyReference.cache
+\\adir.hull.ac.uk\home\557\557716\Year 2\500081 Networking and User Interface Design\locationserver\locationserver\obj\Debug\locationserver.csprojAssemblyReference.cache

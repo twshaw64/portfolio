@@ -1,0 +1,57 @@
+public static char ValueBet(int handValue)
+        {
+            switch(handValue)
+            {
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                case 10:
+                case 11:
+                case 12:
+                case 13:
+                case 14:
+                case 15:
+                case 16:
+                    { return 'l'; }
+                case 17:
+                case 18:
+                case 19:
+                    { return 'm'; }
+                case 20:
+                case 21:
+                    { return 'h'; }
+                default:
+                    { return 'm'; } //should be unreachable
+            }
+	}
+
+char vBet = ValueBet(handValue);
+            char cBet = ChipBet(bjp.chips);
+            int tempBet = 0;            
+            //low bet = 1/10, mid bet = 1/5, high = 1/3
+            switch(vBet)
+            {
+                case 'l':
+                    {
+                        tempBet = (int)(bjp.chips * 0.1);
+                        break;
+                    }
+                case 'm':
+                    {
+                        tempBet = (int)(bjp.chips * 0.2);
+                        break;
+                    }
+                case 'h':
+                    {
+                        tempBet = (int)(bjp.chips * 0.34);
+                        break;
+                    }
+            }
+
+//half bet with low chips, double bet with high chips(if not high bet)
